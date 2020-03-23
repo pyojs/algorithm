@@ -1,4 +1,4 @@
-# 경계선dmf 확인하는 함수
+# 경계선을 확인하는 함수
 def boundary(x, y):
     if x < 19 and x >= 0 and y < 19 and y >= 0:
         return True
