@@ -1,3 +1,5 @@
+# SW Expert Academy 6485. 삼성시의 버스 노선
+
 T = int(input())
 for t in range(1, T+1):
     N = int(input())

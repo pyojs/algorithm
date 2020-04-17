@@ -1,3 +1,5 @@
+# SW Expert Academy 1873. 상호의 배틀필드
+
 def pos(x,y):
     if x < 0 or x > W-1 or y < 0 or y > H-1 or map_arr[y][x] != '.':
         return False

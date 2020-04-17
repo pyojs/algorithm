@@ -1,3 +1,7 @@
+# SW Expert Academy 1865. 동철이의 일 분배
+
+# 최대 확률을 저장할 변수
+max_per = 0
 # 겹치지 않게 일을 분배하는 함수(순열 생각)
 def per(a, s):
     global max_per
@@ -19,7 +23,6 @@ for t in range(1, T+1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
     check = [0]*N
-    max_per = 0
     per(0, 1)
     # 퍼센트로 맞추기 위해 100을 곱함
     max_per *= 100

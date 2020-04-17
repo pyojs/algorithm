@@ -1,3 +1,7 @@
+# SW Expert Academy 2806. N_Queen
+
+# 결과를 저장할 변수
+result = 0
 # 이전까지 열에서 가능한지 검사하는 함수
 def pos(k):
     # 같은 행에 존재하거나 대각선에 존재하면 False
@@ -23,7 +27,6 @@ def queen(k):
 T = int(input())
 for tc in range(1, T+1):
     N = int(input())
-    result = 0
     # 각 열에 어느 행에 퀸이 존재하는지 표시할 배열
     arr = [0 for _ in range(N)]
     queen(0)

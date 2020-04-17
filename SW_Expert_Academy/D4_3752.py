@@ -1,3 +1,5 @@
+# SW Expert Academy 3752. 가능한 시험 점수
+
 T = int(input())
 for t in range(1, T+1):
     N = int(input())

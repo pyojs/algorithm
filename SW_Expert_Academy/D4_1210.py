@@ -1,3 +1,5 @@
+# SW Expert Academy 1210. [S/W 문제해결 기본] 2일차 - Ladder1
+
 T = 10
 for t in range(1, T+1):
     N = int(input())

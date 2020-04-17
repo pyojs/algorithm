@@ -1,3 +1,5 @@
+# SW Expert Academy 4012. [모의 SW 역량테스트] 요리사
+
 # 고른 식재료들의 시너지들의 합을 구하는 함수
 def taste(A):
     total = 0

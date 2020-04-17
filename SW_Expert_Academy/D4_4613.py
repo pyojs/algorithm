@@ -1,3 +1,5 @@
+# SW Expert Academy 4613. 러시아 국기 같은 깃발
+
 # 색 조합을 만드는 함수
 def comb(k):
     global result

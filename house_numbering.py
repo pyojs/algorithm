@@ -36,4 +36,3 @@ print(len(result_list))
 result_list.sort()
 for n in result_list:
     print(n)
-

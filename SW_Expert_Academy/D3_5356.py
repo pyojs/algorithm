@@ -1,3 +1,5 @@
+# SW Expert Academy 5356. 의석이의 세로로 말해요
+
 T = int(input())
 for t in range(1, T+1):
     arr = []
