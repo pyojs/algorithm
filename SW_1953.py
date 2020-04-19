@@ -1,3 +1,5 @@
+# SW Expert Academy 1953. [모의 SW 역량테스트] 탈주범 검거
+
 # 진행할 방향이 가능한 방향인지를 확인하는 함수
 def wall(R, C):
     if R > N-1 or C > M-1 or R < 0 or C < 0 or arr[R][C] == 0:

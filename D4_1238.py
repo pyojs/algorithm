@@ -1,3 +1,5 @@
+# SW Expert Academy 1238. [S/W 문제해결 기본] 10일차 - Contact 
+
 # BFS를 이용한 함수
 def check(q):
     global max_num

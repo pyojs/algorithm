@@ -1,3 +1,5 @@
+# SW Expert Academy 4366. 정식이의 은행업무
+
 T = int(input())
 for t in range(1, T+1):
     N_2 = list(input())
