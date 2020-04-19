@@ -1,3 +1,5 @@
+# SW Expert Academy 5099. [파이썬 S/W 문제해결 기본] 6일차 - 피자 굽기
+
 T = int(input())
 for tc in range(1, T+1):
     N, M = map(int, input().split())

@@ -1,3 +1,5 @@
+# SW Expert Academy 5105. [파이썬 S/W 문제해결 기본] 6일차 - 미로의 거리
+
 # 경계와 벽을 확인하는 함수
 def boundary(x, y):
     if x<0 or y<0 or x>N-1 or y>N-1 or maze[y][x] == 1:

@@ -1,3 +1,5 @@
+# SW Expert Academy 5102. [파이썬 S/W 문제해결 기본] 6일차 - 노드의 거리
+
 # bfs를 실행할 함수
 def bfs(q, cnt, end):
     global result
