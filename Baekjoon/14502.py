@@ -1,3 +1,5 @@
+# BAEKJOON 14502. 연구소
+
 # 경계선을 검사하는 함수
 def boundary(x,y):
     if x<0 or y<0 or x>M-1 or y>N-1:
