@@ -1,3 +1,5 @@
+# BAEKJOON 1260. DFS와 BFS
+
 def dfs(V, k):
     # 노드 개수만큼 방문한 경우 종료
     if k == N:
@@ -27,7 +29,6 @@ def bfs(V):
             for i in range(1, N+1):
                 if direction_matrix[V][i] == 1:
                     q.append(i)
-
 
 N, M, V = map(int, input().split())
 # 간선의 정보를 입력하기 위한 매트릭스 생성(인덱스 0은 사용 X)
