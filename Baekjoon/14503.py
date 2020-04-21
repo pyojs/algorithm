@@ -1,9 +1,11 @@
+# BAEKJOON 14503. 로봇 청소기
+
 N, M = map(int, input().split())
 r, c, d = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
 # 청소 여부를 확인할 방문 배열
 visited = [[0 for _ in range(M)] for _ in range(N)]
-#북 서 남 동
+# 북 서 남 동
 dx = [0, -1, 0, 1]
 dy = [-1, 0, 1, 0]
 # 입력값과 dx, dy의 위치를 맞추기 위한 작업

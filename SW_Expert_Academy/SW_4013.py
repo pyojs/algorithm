@@ -1,3 +1,5 @@
+# SW Expert Academy 4013. [모의 SW 역량테스트] 특이한 자석
+
 # 톱니바퀴를 회전시키는 함수
 def rotation(n, d):
     # 시계방향

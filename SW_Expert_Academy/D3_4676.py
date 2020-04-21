@@ -1,3 +1,5 @@
+# SW Expert Academy 4676. 늘어지는 소리 만들기
+
 T = int(input())
 for tc in range(1, T+1):
     sound = list(input())

@@ -1,3 +1,5 @@
+# SW Expert Academy 5656. [모의 SW 역량테스트] 벽돌 깨기
+
 # 인덱스 범위를 제한해주기 위한 함수
 def boundary(x, y):
     if x < 0 or y < 0 or x > W-1 or y > H-1:

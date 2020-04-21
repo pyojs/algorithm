@@ -1,5 +1,7 @@
+# SW Expert Academy 5658. [모의 SW 역량테스트] 보물상자 비밀번호
+
 T = int(input())
-for t in range(1, T+1):
+for tc in range(1, T+1):
     N, K = map(int, input().split())
     arr = list(input())
     # 사각형은 변이 4개 -> 각 변에 들어가는 숫자 개수 체크
@@ -21,4 +23,4 @@ for t in range(1, T+1):
     # 내림차순으로 정렬(K번째로 큰 수이기 때문)
     result.sort(reverse=True)
 
-    print('#{} {}'.format(t, result[K-1]))
+    print('#{} {}'.format(tc, result[K-1]))
