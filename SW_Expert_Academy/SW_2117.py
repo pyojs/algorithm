@@ -1,3 +1,5 @@
+# SW Expert Academy 2117. [모의 SW 역량테스트] 홈 방범 서비스
+
 T = int(input())
 for tc in range(1, T+1):
     N, M = map(int, input().split())
@@ -17,7 +19,7 @@ for tc in range(1, T+1):
                 for y in range(-K+1, K):
                     for x in range(-K+1, K):
                         if i+x>=0 and j+y>=0 and i+x<N and j+y<N:
-                            # 그 중에서 x, y의 절대값을 더한게 K-1 보다 작을 때 실행
+                            # 그 중에서 x, y의 절대값을 더한게 K-1 보다 작을 때 실행(중심 기준 거리)
                             if abs(x)+abs(y) <= K-1 and home_arr[j+y][i+x] == 1:
                                 revenue += M
                                 cnt += 1

@@ -1,3 +1,5 @@
+# BAEKJOON 15686. 치킨 배달
+
 def chicken(a, k):
     global chicken_distance
     # 치킨집 M개를 선택한 경우 실행

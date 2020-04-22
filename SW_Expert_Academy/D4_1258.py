@@ -1,5 +1,7 @@
+# SW Expert Academy 1258. [S/W 문제해결 응용] 7일차 - 행렬찾기
+
 T = int(input())
-for t in range(1, T+1):
+for tc in range(1, T+1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
     result = []
@@ -30,7 +32,7 @@ for t in range(1, T+1):
     # 찾은 행렬을 정렬하는 코드(크기, 행 순서)
     result.sort(key=lambda x: (x[2], x[0]))
     
-    print('#{} {} '.format(t, len(result)), end = '')
+    print('#{} {} '.format(tc, len(result)), end = '')
     for a in range(len(result)):
         print(*result[a][0:2], end = ' ')
     print()

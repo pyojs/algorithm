@@ -1,3 +1,5 @@
+# BAEKJOON 15649. N과 M (1)
+
 N, M = map(int, input().split())
 
 # 순열을 만들기 위한 함수

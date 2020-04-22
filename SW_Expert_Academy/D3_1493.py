@@ -1,3 +1,5 @@
+# SW Expert Academy 1493. 수의 새로운 연산
+
 # 점의 임시 x 위치를 찾기 위한 함수
 def temp_x(dot):
     for x in range(len(arr)-1):

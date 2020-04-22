@@ -1,3 +1,5 @@
+# SW Expert Academy 2115. [모의 SW 역량테스트] 벌꿀채취
+
 def collect(a, s_list):
     global result
     if a == 2:
