@@ -1,3 +1,5 @@
+# SW Expert Academy 3349. 최솟값으로 이동하기
+
 T = int(input())
 for tc in range(1 ,T+1):
     W, H, N = map(int,input().split())

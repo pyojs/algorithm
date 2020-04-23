@@ -1,3 +1,5 @@
+# BAEKJOON 15650. N과 M (2)
+
 N, M = map(int, input().split())
 
 # 조합을 만들기 위한 함수

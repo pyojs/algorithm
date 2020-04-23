@@ -1,3 +1,5 @@
+# BAEKJOON 14889. 스타트와 링크
+
 # 팀을 구성하고 능력치 차이를 구하는 함수
 def soccer(n, k):
     global gap

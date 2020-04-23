@@ -1,3 +1,5 @@
+# BAEKJOON 2667. 단지번호붙이기
+
 # 경계선과 집을 확인하는 함수
 def boundary(x,y):
     if x<0 or y<0 or x>N-1 or y>N-1 or arr[y][x]==0:
@@ -37,6 +39,7 @@ result_list.sort()
 for n in result_list:
     print(n)
 
+# dfs를 활용하는 경우
 # def boundary(x, y):
 #     if x<0 or y<0 or x>N-1 or y>N-1 or arr[y][x] == 0:
 #         return False
