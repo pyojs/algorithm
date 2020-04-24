@@ -1,5 +1,7 @@
+# SW Expert Academy 1225. [S/W 문제해결 기본] 7일차 - 암호생성기
+
 T = 10
-for t in range(1, T+1):
+for tc in range(1, T+1):
     N = int(input())
     arr = list(map(int, input().split()))
     p = False
@@ -18,5 +20,5 @@ for t in range(1, T+1):
                 break
         if p:
             break
-    print('#{} '.format(t), end = '')
+    print('#{} '.format(tc), end = '')
     print(*arr)
