@@ -1,4 +1,4 @@
-# BAEKJOON 15650. N과 M (3)
+# BAEKJOON 15654. N과 M (3)
 
 def comb(k):
     # 수열의 길이가 M이 되었을 때 출력
