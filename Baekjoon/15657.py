@@ -1,4 +1,4 @@
-# BAEKJOON 15657. N과 M (7)
+# BAEKJOON 15657. N과 M (8)
 
 # 수열을 만들고 출력하기 위한 함수
 def sequence(k):
