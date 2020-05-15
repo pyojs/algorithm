@@ -10,12 +10,12 @@ def sequence(k):
         for i in range(len(arr)):
             # 정렬된 배열에서 수의 개수만큼 사용하지 않은 경우 실행
             if visit_count[i] != arr_dict[arr[i]]:
-                # 수의 사용 회수를 +1
+                # 수의 사용 횟수를 +1
                 visit_count[i] += 1
                 # 결과에 추가하고 재귀 실행
                 result.append(arr[i])
                 sequence(k+1)
-                # 수의 사용이 끝난 경우 사용 회수를 줄이고 결과에서 제거
+                # 수의 사용이 끝난 경우 사용 횟수를 줄이고 결과에서 제거
                 visit_count[i] -= 1
                 result.pop()
 
