@@ -1,4 +1,4 @@
-  # programmers 42583. 다리를 지나는 트럭
+# programmers Level2_42583. 다리를 지나는 트럭
 
 def solution(bridge_length, weight, truck_weights):
     # 시간 결과를 저장할 변수
