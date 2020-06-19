@@ -1,4 +1,4 @@
-# programmers Level2_43165. 탑
+# programmers Level2_43165. 타겟 넘버
 
 # 결과를 저장할 변수
 answer = 0
